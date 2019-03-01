@@ -395,7 +395,7 @@ public class RSA {
 				fin = "9" + fin;
 
 			} else if (big.mod(hundred).intValue() == 70) {
-				fin = "(" + fin;
+				fin = ")" + fin;
 			} else if (big.mod(hundred).intValue() == 71) {
 				fin = "!" + fin;
 			} else if (big.mod(hundred).intValue() == 72) {
